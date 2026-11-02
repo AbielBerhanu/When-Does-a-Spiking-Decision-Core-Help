@@ -1,4 +1,4 @@
-# AIxDke2026: Neuromorphic spoken-action decision core
+# When Does a Spiking Decision Core Help? A Controlled Study of Spoken Action Selection
 
 This repository contains the six-page IEEE conference manuscript, reproducible simulation code, held-out prediction scores, and tables. The manuscript is [`paper1_action/paper.pdf`](paper1_action/paper.pdf); its LaTeX source is [`paper1_action/paper.tex`](paper1_action/paper.tex).
 

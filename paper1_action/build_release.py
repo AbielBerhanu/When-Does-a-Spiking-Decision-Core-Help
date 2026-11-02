@@ -53,7 +53,7 @@ def main():
         "paper1_action/results/*.pt\npaper1_action/results/*.joblib\n"
         "__pycache__/\n*.aux\n*.log\n*.synctex.gz\n.DS_Store\n")
     (PACKAGE / "README.md").write_text(
-        "# AIxDke2026: Neuromorphic spoken-action decision core\n\n"
+        "# When Does a Spiking Decision Core Help? A Controlled Study of Spoken Action Selection\n\n"
         "This repository contains the six-page IEEE conference manuscript, "
         "reproducible simulation code, held-out prediction scores, and tables. "
         "The manuscript is [`paper1_action/paper.pdf`](paper1_action/paper.pdf); "
