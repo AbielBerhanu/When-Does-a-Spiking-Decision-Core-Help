@@ -1,0 +1,112 @@
+{
+  "slurp_audio_whisper_plain": {
+    "ann": {
+      "ece_before_mean": 0.02718784757855361,
+      "ece_after_mean": 0.03207129944634461,
+      "aurc_mean": 0.34405566411261845,
+      "aurc_sample_sd": 0.009614202822770146
+    },
+    "leaky_ann": {
+      "ece_before_mean": 0.04399130402662728,
+      "ece_after_mean": 0.024978808405299906,
+      "aurc_mean": 0.2591004927770531,
+      "aurc_sample_sd": 0.006293207493589342
+    },
+    "snn": {
+      "ece_before_mean": 0.029071453385551106,
+      "ece_after_mean": 0.028867022807396094,
+      "aurc_mean": 0.2614079424421923,
+      "aurc_sample_sd": 0.004244280605626965
+    },
+    "gru": {
+      "ece_before_mean": 0.025324558837448267,
+      "ece_after_mean": 0.03256796165679474,
+      "aurc_mean": 0.21324959934907733,
+      "aurc_sample_sd": 0.006119088183473317
+    }
+  },
+  "slurp_asr": {
+    "ann": {
+      "ece_before_mean": 0.14912933278240126,
+      "ece_after_mean": 0.061211526405414475,
+      "aurc_mean": 0.19956213377656037,
+      "aurc_sample_sd": 0.007648411347202624
+    },
+    "leaky_ann": {
+      "ece_before_mean": 0.16276911498318603,
+      "ece_after_mean": 0.0497816106871963,
+      "aurc_mean": 0.18509106847393558,
+      "aurc_sample_sd": 0.0019202304764506313
+    },
+    "snn": {
+      "ece_before_mean": 0.1314840460543113,
+      "ece_after_mean": 0.06323896990068101,
+      "aurc_mean": 0.17578362700672245,
+      "aurc_sample_sd": 0.003336622541687901
+    },
+    "gru": {
+      "ece_before_mean": 0.12999341084440844,
+      "ece_after_mean": 0.046457183394122616,
+      "aurc_mean": 0.17642169784464415,
+      "aurc_sample_sd": 0.0041243901691452286
+    },
+    "bow": {
+      "ece_before_mean": 0.2024984784464689,
+      "ece_after_mean": 0.028170245007470104,
+      "aurc_mean": 0.14901098356224737,
+      "aurc_sample_sd": null
+    }
+  },
+  "slurp_oracle": {
+    "ann": {
+      "ece_before_mean": 0.03736884326604524,
+      "ece_after_mean": 0.029750058101521447,
+      "aurc_mean": 0.0700985540193713,
+      "aurc_sample_sd": 0.0020198950005849334
+    },
+    "leaky_ann": {
+      "ece_before_mean": 0.04904450428670255,
+      "ece_after_mean": 0.02499549295840924,
+      "aurc_mean": 0.06027173115102813,
+      "aurc_sample_sd": 0.00156493813413222
+    },
+    "snn": {
+      "ece_before_mean": 0.03112086300570931,
+      "ece_after_mean": 0.023666388436741057,
+      "aurc_mean": 0.05914550802716227,
+      "aurc_sample_sd": 0.003680290893192264
+    },
+    "gru": {
+      "ece_before_mean": 0.026060686101128615,
+      "ece_after_mean": 0.023030011118380274,
+      "aurc_mean": 0.05775735678973907,
+      "aurc_sample_sd": 0.0025382769455555157
+    }
+  },
+  "speech_massive_fr_audio": {
+    "ann": {
+      "ece_before_mean": 0.03339285311559219,
+      "ece_after_mean": 0.0534233158992641,
+      "aurc_mean": 0.35007910388428787,
+      "aurc_sample_sd": 0.005818204535651413
+    },
+    "leaky_ann": {
+      "ece_before_mean": 0.04672017857718503,
+      "ece_after_mean": 0.041079835066913914,
+      "aurc_mean": 0.26468004139464607,
+      "aurc_sample_sd": 0.0077042779319056965
+    },
+    "snn": {
+      "ece_before_mean": 0.03190230043840666,
+      "ece_after_mean": 0.04262838175823864,
+      "aurc_mean": 0.28576767506400935,
+      "aurc_sample_sd": 0.00844474029007433
+    },
+    "gru": {
+      "ece_before_mean": 0.037209228904948106,
+      "ece_after_mean": 0.043738452100081725,
+      "aurc_mean": 0.21539097215973832,
+      "aurc_sample_sd": 0.01006791916109703
+    }
+  }
+}

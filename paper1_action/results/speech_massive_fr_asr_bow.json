@@ -1,0 +1,33 @@
+{
+  "benchmark": "speech_massive_fr",
+  "input": "asr_hypothesis",
+  "training_input": "reference_prompt",
+  "model": "tfidf_bigram_logistic",
+  "features": 5000,
+  "temperature": 0.6592668923744719,
+  "threshold_10pct_dev_error": 0.7820708255263994,
+  "prompt_wer": {
+    "valid": 0.4748560035445281,
+    "test": 0.447309915518008
+  },
+  "valid": {
+    "n": 1149,
+    "accuracy": 0.5030461270670148,
+    "macro_f1": 0.46518515767046065,
+    "nll": 2.03978114424768,
+    "brier": 0.6483023211372793,
+    "ece_15": 0.04131696731545379,
+    "selective_coverage": 0.22019147084421237,
+    "selective_error": 0.09881422924901186
+  },
+  "test": {
+    "n": 2031,
+    "accuracy": 0.5081240768094535,
+    "macro_f1": 0.4675851062520997,
+    "nll": 2.007351001993064,
+    "brier": 0.6330826440911244,
+    "ece_15": 0.027455858548750347,
+    "selective_coverage": 0.2604628261939931,
+    "selective_error": 0.09640831758034027
+  }
+}

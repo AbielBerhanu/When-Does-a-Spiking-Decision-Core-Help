@@ -1,0 +1,10 @@
+.venv/
+data/
+paper1_action/cache/
+paper1_action/results/*.pt
+paper1_action/results/*.joblib
+__pycache__/
+*.aux
+*.log
+*.synctex.gz
+.DS_Store

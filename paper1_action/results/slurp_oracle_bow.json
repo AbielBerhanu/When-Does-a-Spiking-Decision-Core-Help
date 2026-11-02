@@ -1,0 +1,27 @@
+{
+  "model": "tfidf_bigram_logistic",
+  "input": "oracle",
+  "features": 5000,
+  "temperature": 0.527801562536813,
+  "threshold_10pct_dev_error": 0.5326344931924399,
+  "valid": {
+    "n": 2033,
+    "accuracy": 0.8047220855878012,
+    "macro_f1": 0.7564961223471982,
+    "nll": 0.7380930959470319,
+    "brier": 0.2775258035288067,
+    "ece_15": 0.03349507319375706,
+    "selective_coverage": 0.8165272995573045,
+    "selective_error": 0.1
+  },
+  "test": {
+    "n": 2974,
+    "accuracy": 0.7908540685944856,
+    "macro_f1": 0.7185690134549599,
+    "nll": 0.7732821692296288,
+    "brier": 0.29005689532692475,
+    "ece_15": 0.024112020041610116,
+    "selective_coverage": 0.820107599193006,
+    "selective_error": 0.11234112341123412
+  }
+}

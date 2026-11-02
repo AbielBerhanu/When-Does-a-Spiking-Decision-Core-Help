@@ -1,0 +1,37 @@
+{
+  "benchmark": "speech_massive_fr",
+  "input": "asr_hypothesis",
+  "training_input": "reference_prompt",
+  "official_evaluation_split": "validation",
+  "kind": "leaky_ann",
+  "seed": 23,
+  "n_parameters": 254972,
+  "best_epoch": 12,
+  "temperature": 1.874841564546195,
+  "threshold_10pct_dev_error": 0.5315081477165222,
+  "mean_hidden_spike_rate": null,
+  "prompt_wer": {
+    "valid": 0.4748560035445281,
+    "test": 0.447309915518008
+  },
+  "valid": {
+    "n": 1149,
+    "accuracy": 0.37946040034812883,
+    "macro_f1": 0.33841975352128817,
+    "nll": 2.663965940475464,
+    "brier": 0.762573517517394,
+    "ece_15": 0.05739723182274425,
+    "selective_coverage": 0.16536118363794605,
+    "selective_error": 0.1
+  },
+  "test": {
+    "n": 2031,
+    "accuracy": 0.39438700147710487,
+    "macro_f1": 0.3369625806054717,
+    "nll": 2.6210672855377197,
+    "brier": 0.7437071901910032,
+    "ece_15": 0.05205019875253027,
+    "selective_coverage": 0.1935007385524372,
+    "selective_error": 0.089058524173028
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "benchmark": "slurp",
+  "input": "frozen_whisper_audio",
+  "kind": "linear_probe",
+  "C": 0.1,
+  "optimization_iterations": 610,
+  "n_parameters_decision_model": 46140,
+  "temperature": 1.165257533303045,
+  "threshold_10pct_dev_error": 0.7295457124710083,
+  "valid": {
+    "n": 2033,
+    "accuracy": 0.5223807181505165,
+    "macro_f1": 0.4517572691234269,
+    "nll": 1.8374216556549072,
+    "brier": 0.6208831246348889,
+    "ece_15": 0.03243723333585573,
+    "selective_coverage": 0.24790949335956713,
+    "selective_error": 0.0992063492063492
+  },
+  "test": {
+    "n": 2974,
+    "accuracy": 0.5168123739071957,
+    "macro_f1": 0.4551680863982161,
+    "nll": 1.8236204385757446,
+    "brier": 0.6158348285958621,
+    "ece_15": 0.026493751659999384,
+    "selective_coverage": 0.2626092804303968,
+    "selective_error": 0.1088348271446863
+  },
+  "mean_encoder_seconds_during_cache_generation_unisolated": 0.03635856881737709
+}

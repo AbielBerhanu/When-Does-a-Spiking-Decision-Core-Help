@@ -1,0 +1,2494 @@
+{
+  "cost_definition": "wrong action=1, deferral=hypothetical fraction; correct action=0",
+  "per_seed": [
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 11,
+      "defer_cost": 0.1,
+      "threshold": 0.8693870306015015,
+      "development": {
+        "coverage": 0.04426955238563699,
+        "wrong_action_rate": 0.000983767830791933,
+        "defer_rate": 0.955730447614363,
+        "mean_cost": 0.09655681259222824
+      },
+      "test": {
+        "coverage": 0.04942837928715535,
+        "wrong_action_rate": 0.0016812373907195697,
+        "defer_rate": 0.9505716207128446,
+        "mean_cost": 0.09673839946200403
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 11,
+      "defer_cost": 0.2,
+      "threshold": 0.7430441379547119,
+      "development": {
+        "coverage": 0.1219872110181997,
+        "wrong_action_rate": 0.011805213969503197,
+        "defer_rate": 0.8780127889818002,
+        "mean_cost": 0.18740777176586326
+      },
+      "test": {
+        "coverage": 0.12138533960995293,
+        "wrong_action_rate": 0.01109616677874916,
+        "defer_rate": 0.8786146603900471,
+        "mean_cost": 0.18681909885675857
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 11,
+      "defer_cost": 0.5,
+      "threshold": 0.41838425397872925,
+      "development": {
+        "coverage": 0.3856369896704378,
+        "wrong_action_rate": 0.10969011313330054,
+        "defer_rate": 0.6143630103295622,
+        "mean_cost": 0.41687161829808167
+      },
+      "test": {
+        "coverage": 0.3954270342972428,
+        "wrong_action_rate": 0.11566913248150638,
+        "defer_rate": 0.6045729657027572,
+        "mean_cost": 0.417955615332885
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 13,
+      "defer_cost": 0.1,
+      "threshold": 0.8156261444091797,
+      "development": {
+        "coverage": 0.06689621249385146,
+        "wrong_action_rate": 0.003443187407771766,
+        "defer_rate": 0.9331037875061485,
+        "mean_cost": 0.09675356615838662
+      },
+      "test": {
+        "coverage": 0.08170813718897109,
+        "wrong_action_rate": 0.006388702084734364,
+        "defer_rate": 0.9182918628110289,
+        "mean_cost": 0.09821788836583727
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 13,
+      "defer_cost": 0.2,
+      "threshold": 0.7858136296272278,
+      "development": {
+        "coverage": 0.08558780127889817,
+        "wrong_action_rate": 0.005902606984751598,
+        "defer_rate": 0.9144121987211018,
+        "mean_cost": 0.188785046728972
+      },
+      "test": {
+        "coverage": 0.09650302622730329,
+        "wrong_action_rate": 0.00941492938802959,
+        "defer_rate": 0.9034969737726967,
+        "mean_cost": 0.19011432414256893
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 13,
+      "defer_cost": 0.5,
+      "threshold": 0.4110465347766876,
+      "development": {
+        "coverage": 0.411214953271028,
+        "wrong_action_rate": 0.12100344318740777,
+        "defer_rate": 0.5887850467289719,
+        "mean_cost": 0.41539596655189376
+      },
+      "test": {
+        "coverage": 0.4203093476798924,
+        "wrong_action_rate": 0.1422326832548756,
+        "defer_rate": 0.5796906523201076,
+        "mean_cost": 0.4320780094149294
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 17,
+      "defer_cost": 0.1,
+      "threshold": 0.834314227104187,
+      "development": {
+        "coverage": 0.043777668470241025,
+        "wrong_action_rate": 0.002459419576979833,
+        "defer_rate": 0.956222331529759,
+        "mean_cost": 0.09808165272995575
+      },
+      "test": {
+        "coverage": 0.04774714189643578,
+        "wrong_action_rate": 0.003026227303295225,
+        "defer_rate": 0.9522528581035642,
+        "mean_cost": 0.09825151311365164
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 17,
+      "defer_cost": 0.2,
+      "threshold": 0.700806736946106,
+      "development": {
+        "coverage": 0.11510083620265617,
+        "wrong_action_rate": 0.01278898180029513,
+        "defer_rate": 0.8848991637973438,
+        "mean_cost": 0.18976881455976394
+      },
+      "test": {
+        "coverage": 0.12138533960995293,
+        "wrong_action_rate": 0.01378614660390047,
+        "defer_rate": 0.8786146603900471,
+        "mean_cost": 0.1895090786819099
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 17,
+      "defer_cost": 0.5,
+      "threshold": 0.47713756561279297,
+      "development": {
+        "coverage": 0.29906542056074764,
+        "wrong_action_rate": 0.08214461387112641,
+        "defer_rate": 0.7009345794392523,
+        "mean_cost": 0.4326119035907526
+      },
+      "test": {
+        "coverage": 0.30060524546065903,
+        "wrong_action_rate": 0.07800941492938802,
+        "defer_rate": 0.699394754539341,
+        "mean_cost": 0.4277067921990585
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 19,
+      "defer_cost": 0.1,
+      "threshold": 0.8262996673583984,
+      "development": {
+        "coverage": 0.05361534677816036,
+        "wrong_action_rate": 0.001967535661583866,
+        "defer_rate": 0.9463846532218396,
+        "mean_cost": 0.09660600098376784
+      },
+      "test": {
+        "coverage": 0.06926698049764626,
+        "wrong_action_rate": 0.006388702084734364,
+        "defer_rate": 0.9307330195023538,
+        "mean_cost": 0.09946200403496973
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 19,
+      "defer_cost": 0.2,
+      "threshold": 0.8010865449905396,
+      "development": {
+        "coverage": 0.06738809640924742,
+        "wrong_action_rate": 0.004426955238563699,
+        "defer_rate": 0.9326119035907526,
+        "mean_cost": 0.19094933595671423
+      },
+      "test": {
+        "coverage": 0.08607935440484196,
+        "wrong_action_rate": 0.009078681909885675,
+        "defer_rate": 0.9139206455951581,
+        "mean_cost": 0.19186281102891725
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 19,
+      "defer_cost": 0.5,
+      "threshold": 0.4243045747280121,
+      "development": {
+        "coverage": 0.35956714215445157,
+        "wrong_action_rate": 0.10378750614854894,
+        "defer_rate": 0.6404328578455485,
+        "mean_cost": 0.42400393507132317
+      },
+      "test": {
+        "coverage": 0.35843981170141226,
+        "wrong_action_rate": 0.10558170813718896,
+        "defer_rate": 0.6415601882985877,
+        "mean_cost": 0.42636180228648285
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 23,
+      "defer_cost": 0.1,
+      "threshold": 0.7595633268356323,
+      "development": {
+        "coverage": 0.08755533694048205,
+        "wrong_action_rate": 0.004918839153959666,
+        "defer_rate": 0.912444663059518,
+        "mean_cost": 0.09616330545991147
+      },
+      "test": {
+        "coverage": 0.10490921318090114,
+        "wrong_action_rate": 0.011768661735036988,
+        "defer_rate": 0.8950907868190988,
+        "mean_cost": 0.10127774041694687
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 23,
+      "defer_cost": 0.2,
+      "threshold": 0.7235221862792969,
+      "development": {
+        "coverage": 0.11706837186424005,
+        "wrong_action_rate": 0.008362026561731432,
+        "defer_rate": 0.88293162813576,
+        "mean_cost": 0.18494835218888342
+      },
+      "test": {
+        "coverage": 0.12609280430396771,
+        "wrong_action_rate": 0.01714862138533961,
+        "defer_rate": 0.8739071956960323,
+        "mean_cost": 0.19193006052454606
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "ann",
+      "seed": 23,
+      "defer_cost": 0.5,
+      "threshold": 0.48069441318511963,
+      "development": {
+        "coverage": 0.30693556320708315,
+        "wrong_action_rate": 0.07575012297097884,
+        "defer_rate": 0.6930644367929168,
+        "mean_cost": 0.4222823413674373
+      },
+      "test": {
+        "coverage": 0.3120376597175521,
+        "wrong_action_rate": 0.08338937457969066,
+        "defer_rate": 0.6879623402824478,
+        "mean_cost": 0.42737054472091457
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 11,
+      "defer_cost": 0.1,
+      "threshold": 0.8004711866378784,
+      "development": {
+        "coverage": 0.147073290703394,
+        "wrong_action_rate": 0.0073782587309394985,
+        "defer_rate": 0.852926709296606,
+        "mean_cost": 0.0926709296606001
+      },
+      "test": {
+        "coverage": 0.16745124411566914,
+        "wrong_action_rate": 0.01109616677874916,
+        "defer_rate": 0.8325487558843309,
+        "mean_cost": 0.09435104236718225
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 11,
+      "defer_cost": 0.2,
+      "threshold": 0.7429144382476807,
+      "development": {
+        "coverage": 0.19380226266601083,
+        "wrong_action_rate": 0.013772749631087064,
+        "defer_rate": 0.8061977373339891,
+        "mean_cost": 0.1750122970978849
+      },
+      "test": {
+        "coverage": 0.21183591123066578,
+        "wrong_action_rate": 0.018493611297915265,
+        "defer_rate": 0.7881640887693342,
+        "mean_cost": 0.1761264290517821
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 11,
+      "defer_cost": 0.5,
+      "threshold": 0.5622669458389282,
+      "development": {
+        "coverage": 0.3708804722085588,
+        "wrong_action_rate": 0.061977373339891784,
+        "defer_rate": 0.6291195277914412,
+        "mean_cost": 0.3765371372356124
+      },
+      "test": {
+        "coverage": 0.36314727639542704,
+        "wrong_action_rate": 0.06724949562878278,
+        "defer_rate": 0.636852723604573,
+        "mean_cost": 0.38567585743106925
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 13,
+      "defer_cost": 0.1,
+      "threshold": 0.8358190059661865,
+      "development": {
+        "coverage": 0.1367437284800787,
+        "wrong_action_rate": 0.005902606984751598,
+        "defer_rate": 0.8632562715199213,
+        "mean_cost": 0.09222823413674373
+      },
+      "test": {
+        "coverage": 0.14862138533960995,
+        "wrong_action_rate": 0.00941492938802959,
+        "defer_rate": 0.85137861466039,
+        "mean_cost": 0.09455279085406859
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 13,
+      "defer_cost": 0.2,
+      "threshold": 0.8318136930465698,
+      "development": {
+        "coverage": 0.1396950319724545,
+        "wrong_action_rate": 0.006394490900147565,
+        "defer_rate": 0.8603049680275455,
+        "mean_cost": 0.17845548450565668
+      },
+      "test": {
+        "coverage": 0.15198386012104909,
+        "wrong_action_rate": 0.010087424344317418,
+        "defer_rate": 0.8480161398789509,
+        "mean_cost": 0.17969065232010759
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 13,
+      "defer_cost": 0.5,
+      "threshold": 0.4796416759490967,
+      "development": {
+        "coverage": 0.45056566650270535,
+        "wrong_action_rate": 0.1042793900639449,
+        "defer_rate": 0.5494343334972946,
+        "mean_cost": 0.37899655681259226
+      },
+      "test": {
+        "coverage": 0.4663752521856086,
+        "wrong_action_rate": 0.11264290517821117,
+        "defer_rate": 0.5336247478143914,
+        "mean_cost": 0.3794552790854069
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 17,
+      "defer_cost": 0.1,
+      "threshold": 0.8392601609230042,
+      "development": {
+        "coverage": 0.12887358583374323,
+        "wrong_action_rate": 0.0054107230693556324,
+        "defer_rate": 0.8711264141662568,
+        "mean_cost": 0.09252336448598132
+      },
+      "test": {
+        "coverage": 0.14458641560188298,
+        "wrong_action_rate": 0.008069939475453935,
+        "defer_rate": 0.855413584398117,
+        "mean_cost": 0.09361129791526562
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 17,
+      "defer_cost": 0.2,
+      "threshold": 0.8283799886703491,
+      "development": {
+        "coverage": 0.13723561239547466,
+        "wrong_action_rate": 0.006886374815543532,
+        "defer_rate": 0.8627643876045253,
+        "mean_cost": 0.17943925233644864
+      },
+      "test": {
+        "coverage": 0.1516476126429052,
+        "wrong_action_rate": 0.009078681909885675,
+        "defer_rate": 0.8483523873570948,
+        "mean_cost": 0.17874915938130462
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 17,
+      "defer_cost": 0.5,
+      "threshold": 0.476223349571228,
+      "development": {
+        "coverage": 0.4648303000491884,
+        "wrong_action_rate": 0.11018199704869651,
+        "defer_rate": 0.5351696999508117,
+        "mean_cost": 0.3777668470241023
+      },
+      "test": {
+        "coverage": 0.4683927370544721,
+        "wrong_action_rate": 0.11802286482851379,
+        "defer_rate": 0.531607262945528,
+        "mean_cost": 0.38382649630127774
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 19,
+      "defer_cost": 0.1,
+      "threshold": 0.8956613540649414,
+      "development": {
+        "coverage": 0.07575012297097884,
+        "wrong_action_rate": 0.002459419576979833,
+        "defer_rate": 0.9242498770290212,
+        "mean_cost": 0.09488440727988197
+      },
+      "test": {
+        "coverage": 0.08742434431741762,
+        "wrong_action_rate": 0.0033624747814391394,
+        "defer_rate": 0.9125756556825824,
+        "mean_cost": 0.09462004034969737
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 19,
+      "defer_cost": 0.2,
+      "threshold": 0.7016767263412476,
+      "development": {
+        "coverage": 0.2336448598130841,
+        "wrong_action_rate": 0.028037383177570093,
+        "defer_rate": 0.7663551401869159,
+        "mean_cost": 0.18130841121495328
+      },
+      "test": {
+        "coverage": 0.23638197713517148,
+        "wrong_action_rate": 0.025554808338937456,
+        "defer_rate": 0.7636180228648285,
+        "mean_cost": 0.1782784129119032
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 19,
+      "defer_cost": 0.5,
+      "threshold": 0.48854005336761475,
+      "development": {
+        "coverage": 0.4367929168716183,
+        "wrong_action_rate": 0.102803738317757,
+        "defer_rate": 0.5632070831283817,
+        "mean_cost": 0.38440727988194784
+      },
+      "test": {
+        "coverage": 0.43644922663080027,
+        "wrong_action_rate": 0.10659045057162071,
+        "defer_rate": 0.5635507733691997,
+        "mean_cost": 0.3883658372562206
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 23,
+      "defer_cost": 0.1,
+      "threshold": 0.8088527917861938,
+      "development": {
+        "coverage": 0.1588785046728972,
+        "wrong_action_rate": 0.007870142646335464,
+        "defer_rate": 0.8411214953271028,
+        "mean_cost": 0.09198229217904576
+      },
+      "test": {
+        "coverage": 0.16072629455279086,
+        "wrong_action_rate": 0.01378614660390047,
+        "defer_rate": 0.8392737054472091,
+        "mean_cost": 0.09771351714862138
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 23,
+      "defer_cost": 0.2,
+      "threshold": 0.8006038069725037,
+      "development": {
+        "coverage": 0.16871618298081653,
+        "wrong_action_rate": 0.009345794392523364,
+        "defer_rate": 0.8312838170191835,
+        "mean_cost": 0.17560255779636005
+      },
+      "test": {
+        "coverage": 0.16543375924680565,
+        "wrong_action_rate": 0.014794889038332213,
+        "defer_rate": 0.8345662407531943,
+        "mean_cost": 0.18170813718897108
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "leaky_ann",
+      "seed": 23,
+      "defer_cost": 0.5,
+      "threshold": 0.4388773441314697,
+      "development": {
+        "coverage": 0.514018691588785,
+        "wrong_action_rate": 0.12887358583374323,
+        "defer_rate": 0.48598130841121495,
+        "mean_cost": 0.3718642400393507
+      },
+      "test": {
+        "coverage": 0.523537323470074,
+        "wrong_action_rate": 0.15366509751176866,
+        "defer_rate": 0.476462676529926,
+        "mean_cost": 0.39189643577673167
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 11,
+      "defer_cost": 0.1,
+      "threshold": 0.8694626688957214,
+      "development": {
+        "coverage": 0.09837678307919331,
+        "wrong_action_rate": 0.001967535661583866,
+        "defer_rate": 0.9016232169208067,
+        "mean_cost": 0.09212985735366454
+      },
+      "test": {
+        "coverage": 0.10995292535305985,
+        "wrong_action_rate": 0.004707464694014795,
+        "defer_rate": 0.8900470746469401,
+        "mean_cost": 0.0937121721587088
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 11,
+      "defer_cost": 0.2,
+      "threshold": 0.7210338115692139,
+      "development": {
+        "coverage": 0.21446138711264143,
+        "wrong_action_rate": 0.02115100836202656,
+        "defer_rate": 0.7855386128873586,
+        "mean_cost": 0.1782587309394983
+      },
+      "test": {
+        "coverage": 0.21822461331540013,
+        "wrong_action_rate": 0.022864828513786146,
+        "defer_rate": 0.7817753866845999,
+        "mean_cost": 0.17921990585070613
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 11,
+      "defer_cost": 0.5,
+      "threshold": 0.4448710083961487,
+      "development": {
+        "coverage": 0.4746679783571077,
+        "wrong_action_rate": 0.11264141662567634,
+        "defer_rate": 0.5253320216428923,
+        "mean_cost": 0.3753074274471225
+      },
+      "test": {
+        "coverage": 0.48251513113651645,
+        "wrong_action_rate": 0.13080026899798253,
+        "defer_rate": 0.5174848688634835,
+        "mean_cost": 0.3895427034297243
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 13,
+      "defer_cost": 0.1,
+      "threshold": 0.8044048547744751,
+      "development": {
+        "coverage": 0.1441219872110182,
+        "wrong_action_rate": 0.004918839153959666,
+        "defer_rate": 0.8558780127889818,
+        "mean_cost": 0.09050664043285785
+      },
+      "test": {
+        "coverage": 0.1570275722932078,
+        "wrong_action_rate": 0.012777404169468728,
+        "defer_rate": 0.8429724277067921,
+        "mean_cost": 0.09707464694014795
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 13,
+      "defer_cost": 0.2,
+      "threshold": 0.7571195960044861,
+      "development": {
+        "coverage": 0.1810132808657157,
+        "wrong_action_rate": 0.010821446138711265,
+        "defer_rate": 0.8189867191342843,
+        "mean_cost": 0.17461878996556812
+      },
+      "test": {
+        "coverage": 0.19401479488903833,
+        "wrong_action_rate": 0.01714862138533961,
+        "defer_rate": 0.8059852051109617,
+        "mean_cost": 0.17834566240753194
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 13,
+      "defer_cost": 0.5,
+      "threshold": 0.4169609546661377,
+      "development": {
+        "coverage": 0.5395966551893753,
+        "wrong_action_rate": 0.14608952287260207,
+        "defer_rate": 0.46040334481062467,
+        "mean_cost": 0.37629119527791444
+      },
+      "test": {
+        "coverage": 0.5268997982515131,
+        "wrong_action_rate": 0.14626765299260255,
+        "defer_rate": 0.4731002017484869,
+        "mean_cost": 0.382817753866846
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 17,
+      "defer_cost": 0.1,
+      "threshold": 0.8650510311126709,
+      "development": {
+        "coverage": 0.11706837186424005,
+        "wrong_action_rate": 0.002951303492375799,
+        "defer_rate": 0.88293162813576,
+        "mean_cost": 0.0912444663059518
+      },
+      "test": {
+        "coverage": 0.1230665770006725,
+        "wrong_action_rate": 0.00605245460659045,
+        "defer_rate": 0.8769334229993275,
+        "mean_cost": 0.09374579690652318
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 17,
+      "defer_cost": 0.2,
+      "threshold": 0.7584365606307983,
+      "development": {
+        "coverage": 0.19429414658140678,
+        "wrong_action_rate": 0.013772749631087064,
+        "defer_rate": 0.8057058534185932,
+        "mean_cost": 0.1749139203148057
+      },
+      "test": {
+        "coverage": 0.20981842636180228,
+        "wrong_action_rate": 0.01815736381977135,
+        "defer_rate": 0.7901815736381977,
+        "mean_cost": 0.1761936785474109
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 17,
+      "defer_cost": 0.5,
+      "threshold": 0.5199084281921387,
+      "development": {
+        "coverage": 0.3984259714707329,
+        "wrong_action_rate": 0.07968519429414658,
+        "defer_rate": 0.6015740285292671,
+        "mean_cost": 0.3804722085587801
+      },
+      "test": {
+        "coverage": 0.4112306657700067,
+        "wrong_action_rate": 0.0917955615332885,
+        "defer_rate": 0.5887693342299932,
+        "mean_cost": 0.38618022864828516
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 19,
+      "defer_cost": 0.1,
+      "threshold": 0.8652207851409912,
+      "development": {
+        "coverage": 0.09394982784062961,
+        "wrong_action_rate": 0.004426955238563699,
+        "defer_rate": 0.9060501721593703,
+        "mean_cost": 0.09503197245450075
+      },
+      "test": {
+        "coverage": 0.10759919300605246,
+        "wrong_action_rate": 0.005043712172158709,
+        "defer_rate": 0.8924008069939475,
+        "mean_cost": 0.09428379287155346
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 19,
+      "defer_cost": 0.2,
+      "threshold": 0.7171294689178467,
+      "development": {
+        "coverage": 0.21298573536645352,
+        "wrong_action_rate": 0.02016724053123463,
+        "defer_rate": 0.7870142646335465,
+        "mean_cost": 0.17757009345794392
+      },
+      "test": {
+        "coverage": 0.21923335574983188,
+        "wrong_action_rate": 0.02488231338264963,
+        "defer_rate": 0.7807666442501682,
+        "mean_cost": 0.18103564223268329
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 19,
+      "defer_cost": 0.5,
+      "threshold": 0.5075141787528992,
+      "development": {
+        "coverage": 0.40432857845548453,
+        "wrong_action_rate": 0.08804722085587802,
+        "defer_rate": 0.5956714215445155,
+        "mean_cost": 0.38588293162813575
+      },
+      "test": {
+        "coverage": 0.40282447881640887,
+        "wrong_action_rate": 0.0917955615332885,
+        "defer_rate": 0.5971755211835911,
+        "mean_cost": 0.3903833221250841
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 23,
+      "defer_cost": 0.1,
+      "threshold": 0.7978599071502686,
+      "development": {
+        "coverage": 0.14461387112641416,
+        "wrong_action_rate": 0.0073782587309394985,
+        "defer_rate": 0.8553861288735858,
+        "mean_cost": 0.09291687161829809
+      },
+      "test": {
+        "coverage": 0.1526563550773369,
+        "wrong_action_rate": 0.010759919300605245,
+        "defer_rate": 0.8473436449226631,
+        "mean_cost": 0.09549428379287156
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 23,
+      "defer_cost": 0.2,
+      "threshold": 0.6985193490982056,
+      "development": {
+        "coverage": 0.22577471716674866,
+        "wrong_action_rate": 0.02115100836202656,
+        "defer_rate": 0.7742252828332513,
+        "mean_cost": 0.1759960649286768
+      },
+      "test": {
+        "coverage": 0.2273032952252858,
+        "wrong_action_rate": 0.02589105581708137,
+        "defer_rate": 0.7726967047747142,
+        "mean_cost": 0.18043039677202422
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "snn",
+      "seed": 23,
+      "defer_cost": 0.5,
+      "threshold": 0.520954966545105,
+      "development": {
+        "coverage": 0.3900639449090015,
+        "wrong_action_rate": 0.07575012297097884,
+        "defer_rate": 0.6099360550909986,
+        "mean_cost": 0.3807181505164781
+      },
+      "test": {
+        "coverage": 0.4011432414256893,
+        "wrong_action_rate": 0.08540685944855414,
+        "defer_rate": 0.5988567585743106,
+        "mean_cost": 0.38483523873570946
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 11,
+      "defer_cost": 0.1,
+      "threshold": 0.8449931740760803,
+      "development": {
+        "coverage": 0.16527299557304476,
+        "wrong_action_rate": 0.0054107230693556324,
+        "defer_rate": 0.8347270044269552,
+        "mean_cost": 0.08888342351205115
+      },
+      "test": {
+        "coverage": 0.16778749159381304,
+        "wrong_action_rate": 0.008406186953597848,
+        "defer_rate": 0.832212508406187,
+        "mean_cost": 0.09162743779421655
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 11,
+      "defer_cost": 0.2,
+      "threshold": 0.768688440322876,
+      "development": {
+        "coverage": 0.2267584849975406,
+        "wrong_action_rate": 0.01278898180029513,
+        "defer_rate": 0.7732415150024594,
+        "mean_cost": 0.16743728480078704
+      },
+      "test": {
+        "coverage": 0.24512441156691325,
+        "wrong_action_rate": 0.020847343644922665,
+        "defer_rate": 0.7548755884330868,
+        "mean_cost": 0.17182246133154003
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 11,
+      "defer_cost": 0.5,
+      "threshold": 0.4444460868835449,
+      "development": {
+        "coverage": 0.5646827348745695,
+        "wrong_action_rate": 0.1308411214953271,
+        "defer_rate": 0.4353172651254304,
+        "mean_cost": 0.3484997540580423
+      },
+      "test": {
+        "coverage": 0.5574983187626092,
+        "wrong_action_rate": 0.13349024882313382,
+        "defer_rate": 0.4425016812373907,
+        "mean_cost": 0.3547410894418292
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 13,
+      "defer_cost": 0.1,
+      "threshold": 0.8258615732192993,
+      "development": {
+        "coverage": 0.1883915395966552,
+        "wrong_action_rate": 0.007870142646335464,
+        "defer_rate": 0.8116084604033448,
+        "mean_cost": 0.08903098868666995
+      },
+      "test": {
+        "coverage": 0.18964357767316745,
+        "wrong_action_rate": 0.008069939475453935,
+        "defer_rate": 0.8103564223268326,
+        "mean_cost": 0.08910558170813719
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 13,
+      "defer_cost": 0.2,
+      "threshold": 0.6604131460189819,
+      "development": {
+        "coverage": 0.3339891785538613,
+        "wrong_action_rate": 0.030988686669945892,
+        "defer_rate": 0.6660108214461387,
+        "mean_cost": 0.16419085095917366
+      },
+      "test": {
+        "coverage": 0.33187626092804307,
+        "wrong_action_rate": 0.03934095494283793,
+        "defer_rate": 0.668123739071957,
+        "mean_cost": 0.1729657027572293
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 13,
+      "defer_cost": 0.5,
+      "threshold": 0.4766487181186676,
+      "development": {
+        "coverage": 0.5061485489424495,
+        "wrong_action_rate": 0.09886866699458928,
+        "defer_rate": 0.4938514510575504,
+        "mean_cost": 0.34579439252336447
+      },
+      "test": {
+        "coverage": 0.5053799596503026,
+        "wrong_action_rate": 0.1062542030934768,
+        "defer_rate": 0.49462004034969737,
+        "mean_cost": 0.3535642232683255
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 17,
+      "defer_cost": 0.1,
+      "threshold": 0.8039813041687012,
+      "development": {
+        "coverage": 0.1957697983275947,
+        "wrong_action_rate": 0.010329562223315297,
+        "defer_rate": 0.8042302016724053,
+        "mean_cost": 0.09075258239055582
+      },
+      "test": {
+        "coverage": 0.20611970410221922,
+        "wrong_action_rate": 0.012441156691324815,
+        "defer_rate": 0.7938802958977808,
+        "mean_cost": 0.0918291862811029
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 17,
+      "defer_cost": 0.2,
+      "threshold": 0.7557176351547241,
+      "development": {
+        "coverage": 0.249877029021151,
+        "wrong_action_rate": 0.017707820954254796,
+        "defer_rate": 0.750122970978849,
+        "mean_cost": 0.1677324151500246
+      },
+      "test": {
+        "coverage": 0.24747814391392065,
+        "wrong_action_rate": 0.01882985877605918,
+        "defer_rate": 0.7525218560860794,
+        "mean_cost": 0.16933422999327505
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 17,
+      "defer_cost": 0.5,
+      "threshold": 0.43289846181869507,
+      "development": {
+        "coverage": 0.5651746187899656,
+        "wrong_action_rate": 0.1367437284800787,
+        "defer_rate": 0.43482538121003445,
+        "mean_cost": 0.35415641908509593
+      },
+      "test": {
+        "coverage": 0.5605245460659045,
+        "wrong_action_rate": 0.1375252185608608,
+        "defer_rate": 0.4394754539340955,
+        "mean_cost": 0.35726294552790855
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 19,
+      "defer_cost": 0.1,
+      "threshold": 0.8183935284614563,
+      "development": {
+        "coverage": 0.190850959173635,
+        "wrong_action_rate": 0.008362026561731432,
+        "defer_rate": 0.809149040826365,
+        "mean_cost": 0.08927693064436792
+      },
+      "test": {
+        "coverage": 0.19535978480161398,
+        "wrong_action_rate": 0.01378614660390047,
+        "defer_rate": 0.804640215198386,
+        "mean_cost": 0.09425016812373906
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 19,
+      "defer_cost": 0.2,
+      "threshold": 0.6907005310058594,
+      "development": {
+        "coverage": 0.2956222331529759,
+        "wrong_action_rate": 0.026069847515986226,
+        "defer_rate": 0.7043777668470241,
+        "mean_cost": 0.16694540088539103
+      },
+      "test": {
+        "coverage": 0.29993275050437124,
+        "wrong_action_rate": 0.03429724277067922,
+        "defer_rate": 0.7000672494956288,
+        "mean_cost": 0.17431069266980498
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 19,
+      "defer_cost": 0.5,
+      "threshold": 0.4699825048446655,
+      "development": {
+        "coverage": 0.5125430398425972,
+        "wrong_action_rate": 0.10870634530250861,
+        "defer_rate": 0.48745696015740286,
+        "mean_cost": 0.35243482538121
+      },
+      "test": {
+        "coverage": 0.5268997982515131,
+        "wrong_action_rate": 0.1304640215198386,
+        "defer_rate": 0.4731002017484869,
+        "mean_cost": 0.36701412239408204
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 23,
+      "defer_cost": 0.1,
+      "threshold": 0.7945581674575806,
+      "development": {
+        "coverage": 0.2011805213969503,
+        "wrong_action_rate": 0.010329562223315297,
+        "defer_rate": 0.7988194786030497,
+        "mean_cost": 0.09021151008362027
+      },
+      "test": {
+        "coverage": 0.2178883658372562,
+        "wrong_action_rate": 0.014458641560188298,
+        "defer_rate": 0.7821116341627438,
+        "mean_cost": 0.09266980497646268
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 23,
+      "defer_cost": 0.2,
+      "threshold": 0.6879826784133911,
+      "development": {
+        "coverage": 0.29808165272995574,
+        "wrong_action_rate": 0.027545499262174127,
+        "defer_rate": 0.7019183472700443,
+        "mean_cost": 0.16792916871618302
+      },
+      "test": {
+        "coverage": 0.3090114324142569,
+        "wrong_action_rate": 0.03463349024882313,
+        "defer_rate": 0.6909885675857431,
+        "mean_cost": 0.17283120376597175
+      }
+    },
+    {
+      "path": "audio",
+      "kind": "gru",
+      "seed": 23,
+      "defer_cost": 0.5,
+      "threshold": 0.5137233138084412,
+      "development": {
+        "coverage": 0.46138711264141663,
+        "wrong_action_rate": 0.08607968519429415,
+        "defer_rate": 0.5386128873585834,
+        "mean_cost": 0.35538612887358584
+      },
+      "test": {
+        "coverage": 0.48251513113651645,
+        "wrong_action_rate": 0.09717552118359113,
+        "defer_rate": 0.5174848688634835,
+        "mean_cost": 0.3559179556153329
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 11,
+      "defer_cost": 0.1,
+      "threshold": 0.6743485927581787,
+      "development": {
+        "coverage": 0.27594687653713723,
+        "wrong_action_rate": 0.013280865715691098,
+        "defer_rate": 0.7240531234628628,
+        "mean_cost": 0.08568617806197738
+      },
+      "test": {
+        "coverage": 0.29186281102891726,
+        "wrong_action_rate": 0.022864828513786146,
+        "defer_rate": 0.7081371889710827,
+        "mean_cost": 0.09367854741089443
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 11,
+      "defer_cost": 0.2,
+      "threshold": 0.6743485927581787,
+      "development": {
+        "coverage": 0.27594687653713723,
+        "wrong_action_rate": 0.013280865715691098,
+        "defer_rate": 0.7240531234628628,
+        "mean_cost": 0.15809149040826367
+      },
+      "test": {
+        "coverage": 0.29186281102891726,
+        "wrong_action_rate": 0.022864828513786146,
+        "defer_rate": 0.7081371889710827,
+        "mean_cost": 0.16449226630800268
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 11,
+      "defer_cost": 0.5,
+      "threshold": 0.4571461081504822,
+      "development": {
+        "coverage": 0.48450565666502704,
+        "wrong_action_rate": 0.08607968519429415,
+        "defer_rate": 0.5154943433349729,
+        "mean_cost": 0.3438268568617806
+      },
+      "test": {
+        "coverage": 0.49159381304640215,
+        "wrong_action_rate": 0.08876933422999328,
+        "defer_rate": 0.5084061869535978,
+        "mean_cost": 0.3429724277067922
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 13,
+      "defer_cost": 0.1,
+      "threshold": 0.7753680944442749,
+      "development": {
+        "coverage": 0.18298081652729956,
+        "wrong_action_rate": 0.004918839153959666,
+        "defer_rate": 0.8170191834727004,
+        "mean_cost": 0.08662075750122972
+      },
+      "test": {
+        "coverage": 0.1933422999327505,
+        "wrong_action_rate": 0.008069939475453935,
+        "defer_rate": 0.8066577000672495,
+        "mean_cost": 0.08873570948217888
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 13,
+      "defer_cost": 0.2,
+      "threshold": 0.5997791290283203,
+      "development": {
+        "coverage": 0.3290703393999016,
+        "wrong_action_rate": 0.030496802754549926,
+        "defer_rate": 0.6709296606000984,
+        "mean_cost": 0.1646827348745696
+      },
+      "test": {
+        "coverage": 0.33591123066577,
+        "wrong_action_rate": 0.03261600537995965,
+        "defer_rate": 0.66408876933423,
+        "mean_cost": 0.16543375924680565
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 13,
+      "defer_cost": 0.5,
+      "threshold": 0.4064471125602722,
+      "development": {
+        "coverage": 0.5322183964584358,
+        "wrong_action_rate": 0.1160846040334481,
+        "defer_rate": 0.4677816035415642,
+        "mean_cost": 0.3499754058042302
+      },
+      "test": {
+        "coverage": 0.531607262945528,
+        "wrong_action_rate": 0.11936785474108944,
+        "defer_rate": 0.4683927370544721,
+        "mean_cost": 0.3535642232683255
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 17,
+      "defer_cost": 0.1,
+      "threshold": 0.6628283262252808,
+      "development": {
+        "coverage": 0.2690605017215937,
+        "wrong_action_rate": 0.014756517461878997,
+        "defer_rate": 0.7309394982784063,
+        "mean_cost": 0.08785046728971964
+      },
+      "test": {
+        "coverage": 0.2753866845998655,
+        "wrong_action_rate": 0.02151983860121049,
+        "defer_rate": 0.7246133154001345,
+        "mean_cost": 0.09398117014122394
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 17,
+      "defer_cost": 0.2,
+      "threshold": 0.6628283262252808,
+      "development": {
+        "coverage": 0.2690605017215937,
+        "wrong_action_rate": 0.014756517461878997,
+        "defer_rate": 0.7309394982784063,
+        "mean_cost": 0.16094441711756027
+      },
+      "test": {
+        "coverage": 0.2753866845998655,
+        "wrong_action_rate": 0.02151983860121049,
+        "defer_rate": 0.7246133154001345,
+        "mean_cost": 0.16644250168123736
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 17,
+      "defer_cost": 0.5,
+      "threshold": 0.4128939211368561,
+      "development": {
+        "coverage": 0.5100836202656173,
+        "wrong_action_rate": 0.1057550418101328,
+        "defer_rate": 0.4899163797343827,
+        "mean_cost": 0.35071323167732416
+      },
+      "test": {
+        "coverage": 0.5376597175521184,
+        "wrong_action_rate": 0.1183591123066577,
+        "defer_rate": 0.46234028244788167,
+        "mean_cost": 0.3495292535305985
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 19,
+      "defer_cost": 0.1,
+      "threshold": 0.7018011808395386,
+      "development": {
+        "coverage": 0.2606984751598623,
+        "wrong_action_rate": 0.008853910477127398,
+        "defer_rate": 0.7393015248401378,
+        "mean_cost": 0.08278406296114117
+      },
+      "test": {
+        "coverage": 0.27336919973100204,
+        "wrong_action_rate": 0.01378614660390047,
+        "defer_rate": 0.726630800268998,
+        "mean_cost": 0.08644922663080028
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 19,
+      "defer_cost": 0.2,
+      "threshold": 0.611296534538269,
+      "development": {
+        "coverage": 0.32857845548450565,
+        "wrong_action_rate": 0.01819970486965076,
+        "defer_rate": 0.6714215445154943,
+        "mean_cost": 0.15248401377274964
+      },
+      "test": {
+        "coverage": 0.3459986550100874,
+        "wrong_action_rate": 0.02824478816408877,
+        "defer_rate": 0.6540013449899126,
+        "mean_cost": 0.1590450571620713
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 19,
+      "defer_cost": 0.5,
+      "threshold": 0.47941678762435913,
+      "development": {
+        "coverage": 0.44318740777176585,
+        "wrong_action_rate": 0.05459911460895229,
+        "defer_rate": 0.5568125922282341,
+        "mean_cost": 0.33300541072306933
+      },
+      "test": {
+        "coverage": 0.4589778076664425,
+        "wrong_action_rate": 0.06287827841291191,
+        "defer_rate": 0.5410221923335575,
+        "mean_cost": 0.33338937457969064
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 23,
+      "defer_cost": 0.1,
+      "threshold": 0.7236311435699463,
+      "development": {
+        "coverage": 0.24495818986719134,
+        "wrong_action_rate": 0.01131333005410723,
+        "defer_rate": 0.7550418101328087,
+        "mean_cost": 0.0868175110673881
+      },
+      "test": {
+        "coverage": 0.26126429051782113,
+        "wrong_action_rate": 0.01546738399462004,
+        "defer_rate": 0.7387357094821789,
+        "mean_cost": 0.08934095494283792
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 23,
+      "defer_cost": 0.2,
+      "threshold": 0.6818844079971313,
+      "development": {
+        "coverage": 0.2754549926217413,
+        "wrong_action_rate": 0.01574028529267093,
+        "defer_rate": 0.7245450073782588,
+        "mean_cost": 0.16064928676832269
+      },
+      "test": {
+        "coverage": 0.2901815736381977,
+        "wrong_action_rate": 0.01983860121049092,
+        "defer_rate": 0.7098184263618023,
+        "mean_cost": 0.1618022864828514
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "ann",
+      "seed": 23,
+      "defer_cost": 0.5,
+      "threshold": 0.44268307089805603,
+      "development": {
+        "coverage": 0.48007870142646336,
+        "wrong_action_rate": 0.07771765863256272,
+        "defer_rate": 0.5199212985735366,
+        "mean_cost": 0.337678307919331
+      },
+      "test": {
+        "coverage": 0.49865501008742436,
+        "wrong_action_rate": 0.09549428379287156,
+        "defer_rate": 0.5013449899125757,
+        "mean_cost": 0.34616677874915935
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 11,
+      "defer_cost": 0.1,
+      "threshold": 0.759789764881134,
+      "development": {
+        "coverage": 0.2587309394982784,
+        "wrong_action_rate": 0.009345794392523364,
+        "defer_rate": 0.7412690605017216,
+        "mean_cost": 0.08347270044269553
+      },
+      "test": {
+        "coverage": 0.2659717552118359,
+        "wrong_action_rate": 0.012777404169468728,
+        "defer_rate": 0.7340282447881641,
+        "mean_cost": 0.08618022864828515
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 11,
+      "defer_cost": 0.2,
+      "threshold": 0.759789764881134,
+      "development": {
+        "coverage": 0.2587309394982784,
+        "wrong_action_rate": 0.009345794392523364,
+        "defer_rate": 0.7412690605017216,
+        "mean_cost": 0.1575996064928677
+      },
+      "test": {
+        "coverage": 0.2659717552118359,
+        "wrong_action_rate": 0.012777404169468728,
+        "defer_rate": 0.7340282447881641,
+        "mean_cost": 0.15958305312710155
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 11,
+      "defer_cost": 0.5,
+      "threshold": 0.44617781043052673,
+      "development": {
+        "coverage": 0.5258239055582883,
+        "wrong_action_rate": 0.09690113133300542,
+        "defer_rate": 0.47417609444171177,
+        "mean_cost": 0.3339891785538613
+      },
+      "test": {
+        "coverage": 0.5467383994620041,
+        "wrong_action_rate": 0.10726294552790853,
+        "defer_rate": 0.45326160053799597,
+        "mean_cost": 0.3338937457969065
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 13,
+      "defer_cost": 0.1,
+      "threshold": 0.7104886770248413,
+      "development": {
+        "coverage": 0.2956222331529759,
+        "wrong_action_rate": 0.01131333005410723,
+        "defer_rate": 0.7043777668470241,
+        "mean_cost": 0.08175110673880963
+      },
+      "test": {
+        "coverage": 0.3002689979825151,
+        "wrong_action_rate": 0.017821116341627436,
+        "defer_rate": 0.6997310020174848,
+        "mean_cost": 0.08779421654337591
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 13,
+      "defer_cost": 0.2,
+      "threshold": 0.707757830619812,
+      "development": {
+        "coverage": 0.2985735366453517,
+        "wrong_action_rate": 0.011805213969503197,
+        "defer_rate": 0.7014264633546483,
+        "mean_cost": 0.15209050664043286
+      },
+      "test": {
+        "coverage": 0.3026227303295225,
+        "wrong_action_rate": 0.01815736381977135,
+        "defer_rate": 0.6973772696704774,
+        "mean_cost": 0.15763281775386684
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 13,
+      "defer_cost": 0.5,
+      "threshold": 0.5366033315658569,
+      "development": {
+        "coverage": 0.44171175602557794,
+        "wrong_action_rate": 0.05410723069355632,
+        "defer_rate": 0.558288243974422,
+        "mean_cost": 0.33325135268076733
+      },
+      "test": {
+        "coverage": 0.45225285810356425,
+        "wrong_action_rate": 0.06254203093476798,
+        "defer_rate": 0.5477471418964358,
+        "mean_cost": 0.33641560188298586
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 17,
+      "defer_cost": 0.1,
+      "threshold": 0.7733274698257446,
+      "development": {
+        "coverage": 0.2218396458435809,
+        "wrong_action_rate": 0.010329562223315297,
+        "defer_rate": 0.778160354156419,
+        "mean_cost": 0.0881455976389572
+      },
+      "test": {
+        "coverage": 0.24310692669804976,
+        "wrong_action_rate": 0.010087424344317418,
+        "defer_rate": 0.7568930733019502,
+        "mean_cost": 0.08577673167451244
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 17,
+      "defer_cost": 0.2,
+      "threshold": 0.68953537940979,
+      "development": {
+        "coverage": 0.29906542056074764,
+        "wrong_action_rate": 0.023610427939006393,
+        "defer_rate": 0.7009345794392523,
+        "mean_cost": 0.16379734382685687
+      },
+      "test": {
+        "coverage": 0.30564895763281774,
+        "wrong_action_rate": 0.01613987895090787,
+        "defer_rate": 0.6943510423671823,
+        "mean_cost": 0.15501008742434433
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 17,
+      "defer_cost": 0.5,
+      "threshold": 0.4848598539829254,
+      "development": {
+        "coverage": 0.47024102311854404,
+        "wrong_action_rate": 0.07132316773241515,
+        "defer_rate": 0.529758976881456,
+        "mean_cost": 0.33620265617314316
+      },
+      "test": {
+        "coverage": 0.48184263618022866,
+        "wrong_action_rate": 0.07599193006052454,
+        "defer_rate": 0.5181573638197714,
+        "mean_cost": 0.3350706119704102
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 19,
+      "defer_cost": 0.1,
+      "threshold": 0.6881898641586304,
+      "development": {
+        "coverage": 0.30644367929168714,
+        "wrong_action_rate": 0.01426463354648303,
+        "defer_rate": 0.6935563207083129,
+        "mean_cost": 0.08362026561731431
+      },
+      "test": {
+        "coverage": 0.3187626092804304,
+        "wrong_action_rate": 0.020174848688634835,
+        "defer_rate": 0.6812373907195696,
+        "mean_cost": 0.08829858776059181
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 19,
+      "defer_cost": 0.2,
+      "threshold": 0.6008437871932983,
+      "development": {
+        "coverage": 0.3753074274471225,
+        "wrong_action_rate": 0.02557796360059026,
+        "defer_rate": 0.6246925725528775,
+        "mean_cost": 0.15051647811116575
+      },
+      "test": {
+        "coverage": 0.3813046402151984,
+        "wrong_action_rate": 0.03530598520511096,
+        "defer_rate": 0.6186953597848016,
+        "mean_cost": 0.1590450571620713
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 19,
+      "defer_cost": 0.5,
+      "threshold": 0.4707731008529663,
+      "development": {
+        "coverage": 0.485489424495819,
+        "wrong_action_rate": 0.06984751598622725,
+        "defer_rate": 0.514510575504181,
+        "mean_cost": 0.32710280373831774
+      },
+      "test": {
+        "coverage": 0.5020174848688634,
+        "wrong_action_rate": 0.08574310692669805,
+        "defer_rate": 0.4979825151311365,
+        "mean_cost": 0.3347343644922663
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 23,
+      "defer_cost": 0.1,
+      "threshold": 0.7701209187507629,
+      "development": {
+        "coverage": 0.25528775209050664,
+        "wrong_action_rate": 0.009345794392523364,
+        "defer_rate": 0.7447122479094933,
+        "mean_cost": 0.0838170191834727
+      },
+      "test": {
+        "coverage": 0.27605917955615333,
+        "wrong_action_rate": 0.011432414256893073,
+        "defer_rate": 0.7239408204438467,
+        "mean_cost": 0.08382649630127774
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 23,
+      "defer_cost": 0.2,
+      "threshold": 0.6615745425224304,
+      "development": {
+        "coverage": 0.3339891785538613,
+        "wrong_action_rate": 0.019183472700442697,
+        "defer_rate": 0.6660108214461387,
+        "mean_cost": 0.15238563698967045
+      },
+      "test": {
+        "coverage": 0.3597848016139879,
+        "wrong_action_rate": 0.027908540685944856,
+        "defer_rate": 0.6402151983860122,
+        "mean_cost": 0.15595158036314727
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "leaky_ann",
+      "seed": 23,
+      "defer_cost": 0.5,
+      "threshold": 0.44649869203567505,
+      "development": {
+        "coverage": 0.515002459419577,
+        "wrong_action_rate": 0.08263649778652238,
+        "defer_rate": 0.48499754058042305,
+        "mean_cost": 0.3251352680767339
+      },
+      "test": {
+        "coverage": 0.5379959650302623,
+        "wrong_action_rate": 0.10020174848688634,
+        "defer_rate": 0.46200403496973774,
+        "mean_cost": 0.3312037659717552
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 11,
+      "defer_cost": 0.1,
+      "threshold": 0.7764527797698975,
+      "development": {
+        "coverage": 0.24790949335956713,
+        "wrong_action_rate": 0.008362026561731432,
+        "defer_rate": 0.7520905066404329,
+        "mean_cost": 0.08357107722577473
+      },
+      "test": {
+        "coverage": 0.25722932078009414,
+        "wrong_action_rate": 0.012777404169468728,
+        "defer_rate": 0.7427706792199058,
+        "mean_cost": 0.0870544720914593
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 11,
+      "defer_cost": 0.2,
+      "threshold": 0.7402908802032471,
+      "development": {
+        "coverage": 0.27889818002951305,
+        "wrong_action_rate": 0.012297097884899164,
+        "defer_rate": 0.721101819970487,
+        "mean_cost": 0.1565174618789965
+      },
+      "test": {
+        "coverage": 0.2952252858103564,
+        "wrong_action_rate": 0.01815736381977135,
+        "defer_rate": 0.7047747141896435,
+        "mean_cost": 0.15911230665770004
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 11,
+      "defer_cost": 0.5,
+      "threshold": 0.4710921347141266,
+      "development": {
+        "coverage": 0.5184456468273487,
+        "wrong_action_rate": 0.07968519429414658,
+        "defer_rate": 0.4815543531726513,
+        "mean_cost": 0.3204623708804722
+      },
+      "test": {
+        "coverage": 0.531271015467384,
+        "wrong_action_rate": 0.09549428379287156,
+        "defer_rate": 0.468728984532616,
+        "mean_cost": 0.32985877605917957
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 13,
+      "defer_cost": 0.1,
+      "threshold": 0.7775415182113647,
+      "development": {
+        "coverage": 0.23462862764387604,
+        "wrong_action_rate": 0.005902606984751598,
+        "defer_rate": 0.765371372356124,
+        "mean_cost": 0.082439744220364
+      },
+      "test": {
+        "coverage": 0.23873570948217887,
+        "wrong_action_rate": 0.008069939475453935,
+        "defer_rate": 0.7612642905178211,
+        "mean_cost": 0.08419636852723604
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 13,
+      "defer_cost": 0.2,
+      "threshold": 0.6608633399009705,
+      "development": {
+        "coverage": 0.34579439252336447,
+        "wrong_action_rate": 0.022134776192818496,
+        "defer_rate": 0.6542056074766355,
+        "mean_cost": 0.1529758976881456
+      },
+      "test": {
+        "coverage": 0.34162743779421656,
+        "wrong_action_rate": 0.0242098184263618,
+        "defer_rate": 0.6583725622057834,
+        "mean_cost": 0.1558843308675185
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 13,
+      "defer_cost": 0.5,
+      "threshold": 0.4563436508178711,
+      "development": {
+        "coverage": 0.5268076733890802,
+        "wrong_action_rate": 0.09001475651746188,
+        "defer_rate": 0.4731923266109198,
+        "mean_cost": 0.3266109198229218
+      },
+      "test": {
+        "coverage": 0.5265635507733692,
+        "wrong_action_rate": 0.08776059179556153,
+        "defer_rate": 0.4734364492266308,
+        "mean_cost": 0.32447881640887694
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 17,
+      "defer_cost": 0.1,
+      "threshold": 0.770557165145874,
+      "development": {
+        "coverage": 0.23856369896704377,
+        "wrong_action_rate": 0.01131333005410723,
+        "defer_rate": 0.7614363010329562,
+        "mean_cost": 0.08745696015740285
+      },
+      "test": {
+        "coverage": 0.23402824478816409,
+        "wrong_action_rate": 0.00773369199731002,
+        "defer_rate": 0.7659717552118359,
+        "mean_cost": 0.08433086751849361
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 17,
+      "defer_cost": 0.2,
+      "threshold": 0.7084531784057617,
+      "development": {
+        "coverage": 0.2951303492375799,
+        "wrong_action_rate": 0.017707820954254796,
+        "defer_rate": 0.70486965076242,
+        "mean_cost": 0.15868175110673882
+      },
+      "test": {
+        "coverage": 0.2864828513786147,
+        "wrong_action_rate": 0.014794889038332213,
+        "defer_rate": 0.7135171486213854,
+        "mean_cost": 0.15749831876260928
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 17,
+      "defer_cost": 0.5,
+      "threshold": 0.4344649612903595,
+      "development": {
+        "coverage": 0.5204131824889326,
+        "wrong_action_rate": 0.09394982784062961,
+        "defer_rate": 0.4795868175110674,
+        "mean_cost": 0.3337432365961633
+      },
+      "test": {
+        "coverage": 0.5487558843308675,
+        "wrong_action_rate": 0.10255548083389375,
+        "defer_rate": 0.4512441156691325,
+        "mean_cost": 0.32817753866846
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 19,
+      "defer_cost": 0.1,
+      "threshold": 0.7483267188072205,
+      "development": {
+        "coverage": 0.27250368912936546,
+        "wrong_action_rate": 0.009345794392523364,
+        "defer_rate": 0.7274963108706345,
+        "mean_cost": 0.08209542547958681
+      },
+      "test": {
+        "coverage": 0.2797579018157364,
+        "wrong_action_rate": 0.011768661735036988,
+        "defer_rate": 0.7202420981842637,
+        "mean_cost": 0.08379287155346335
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 19,
+      "defer_cost": 0.2,
+      "threshold": 0.6777489185333252,
+      "development": {
+        "coverage": 0.3339891785538613,
+        "wrong_action_rate": 0.017707820954254796,
+        "defer_rate": 0.6660108214461387,
+        "mean_cost": 0.15090998524348254
+      },
+      "test": {
+        "coverage": 0.3406186953597848,
+        "wrong_action_rate": 0.02320107599193006,
+        "defer_rate": 0.6593813046402152,
+        "mean_cost": 0.1550773369199731
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 19,
+      "defer_cost": 0.5,
+      "threshold": 0.47993922233581543,
+      "development": {
+        "coverage": 0.4938514510575504,
+        "wrong_action_rate": 0.06345302508607968,
+        "defer_rate": 0.5061485489424495,
+        "mean_cost": 0.31652729955730446
+      },
+      "test": {
+        "coverage": 0.5016812373907196,
+        "wrong_action_rate": 0.08170813718897109,
+        "defer_rate": 0.49831876260928043,
+        "mean_cost": 0.3308675184936113
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 23,
+      "defer_cost": 0.1,
+      "threshold": 0.7834347486495972,
+      "development": {
+        "coverage": 0.24348253812100346,
+        "wrong_action_rate": 0.008853910477127398,
+        "defer_rate": 0.7565174618789966,
+        "mean_cost": 0.08450565666502706
+      },
+      "test": {
+        "coverage": 0.2511768661735037,
+        "wrong_action_rate": 0.008406186953597848,
+        "defer_rate": 0.7488231338264963,
+        "mean_cost": 0.08328850033624748
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 23,
+      "defer_cost": 0.2,
+      "threshold": 0.6512348651885986,
+      "development": {
+        "coverage": 0.34825381210034434,
+        "wrong_action_rate": 0.023118544023610427,
+        "defer_rate": 0.6517461878996557,
+        "mean_cost": 0.15346778160354158
+      },
+      "test": {
+        "coverage": 0.3597848016139879,
+        "wrong_action_rate": 0.02757229320780094,
+        "defer_rate": 0.6402151983860122,
+        "mean_cost": 0.15561533288500334
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "snn",
+      "seed": 23,
+      "defer_cost": 0.5,
+      "threshold": 0.48280906677246094,
+      "development": {
+        "coverage": 0.4820462370880472,
+        "wrong_action_rate": 0.06738809640924742,
+        "defer_rate": 0.5179537629119528,
+        "mean_cost": 0.3263649778652238
+      },
+      "test": {
+        "coverage": 0.5063887020847344,
+        "wrong_action_rate": 0.07632817753866845,
+        "defer_rate": 0.49361129791526565,
+        "mean_cost": 0.3231338264963013
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 11,
+      "defer_cost": 0.1,
+      "threshold": 0.7541175484657288,
+      "development": {
+        "coverage": 0.28627643876045256,
+        "wrong_action_rate": 0.011805213969503197,
+        "defer_rate": 0.7137235612395475,
+        "mean_cost": 0.08317757009345796
+      },
+      "test": {
+        "coverage": 0.28614660390047075,
+        "wrong_action_rate": 0.01546738399462004,
+        "defer_rate": 0.7138533960995292,
+        "mean_cost": 0.086852723604573
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 11,
+      "defer_cost": 0.2,
+      "threshold": 0.6998248100280762,
+      "development": {
+        "coverage": 0.3290703393999016,
+        "wrong_action_rate": 0.01721593703885883,
+        "defer_rate": 0.6709296606000984,
+        "mean_cost": 0.15140186915887852
+      },
+      "test": {
+        "coverage": 0.3355749831876261,
+        "wrong_action_rate": 0.02320107599193006,
+        "defer_rate": 0.6644250168123739,
+        "mean_cost": 0.15608607935440483
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 11,
+      "defer_cost": 0.5,
+      "threshold": 0.5007370710372925,
+      "development": {
+        "coverage": 0.5046728971962616,
+        "wrong_action_rate": 0.07329070339399901,
+        "defer_rate": 0.4953271028037383,
+        "mean_cost": 0.3209542547958682
+      },
+      "test": {
+        "coverage": 0.5067249495628783,
+        "wrong_action_rate": 0.08238063214525891,
+        "defer_rate": 0.4932750504371217,
+        "mean_cost": 0.3290181573638198
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 13,
+      "defer_cost": 0.1,
+      "threshold": 0.8279309272766113,
+      "development": {
+        "coverage": 0.1987211018199705,
+        "wrong_action_rate": 0.003935071323167732,
+        "defer_rate": 0.8012788981800295,
+        "mean_cost": 0.08406296114117069
+      },
+      "test": {
+        "coverage": 0.2178883658372562,
+        "wrong_action_rate": 0.0070611970410221925,
+        "defer_rate": 0.7821116341627438,
+        "mean_cost": 0.08527236045729655
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 13,
+      "defer_cost": 0.2,
+      "threshold": 0.7176164388656616,
+      "development": {
+        "coverage": 0.29463846532218396,
+        "wrong_action_rate": 0.014756517461878997,
+        "defer_rate": 0.705361534677816,
+        "mean_cost": 0.15582882439744222
+      },
+      "test": {
+        "coverage": 0.31472763954270344,
+        "wrong_action_rate": 0.01983860121049092,
+        "defer_rate": 0.6852723604572966,
+        "mean_cost": 0.15689307330195024
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 13,
+      "defer_cost": 0.5,
+      "threshold": 0.4246365427970886,
+      "development": {
+        "coverage": 0.5607476635514018,
+        "wrong_action_rate": 0.11067388096409247,
+        "defer_rate": 0.4392523364485981,
+        "mean_cost": 0.33030004918839156
+      },
+      "test": {
+        "coverage": 0.5722932078009415,
+        "wrong_action_rate": 0.11566913248150638,
+        "defer_rate": 0.4277067921990585,
+        "mean_cost": 0.32952252858103565
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 17,
+      "defer_cost": 0.1,
+      "threshold": 0.7347778081893921,
+      "development": {
+        "coverage": 0.2882439744220364,
+        "wrong_action_rate": 0.011805213969503197,
+        "defer_rate": 0.7117560255779636,
+        "mean_cost": 0.08298081652729955
+      },
+      "test": {
+        "coverage": 0.2962340282447882,
+        "wrong_action_rate": 0.01647612642905178,
+        "defer_rate": 0.7037659717552118,
+        "mean_cost": 0.08685272360457295
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 17,
+      "defer_cost": 0.2,
+      "threshold": 0.6735353469848633,
+      "development": {
+        "coverage": 0.34185932120019674,
+        "wrong_action_rate": 0.02016724053123463,
+        "defer_rate": 0.6581406787998032,
+        "mean_cost": 0.1517953762911953
+      },
+      "test": {
+        "coverage": 0.3446536650975118,
+        "wrong_action_rate": 0.028581035642232685,
+        "defer_rate": 0.6553463349024883,
+        "mean_cost": 0.1596503026227303
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 17,
+      "defer_cost": 0.5,
+      "threshold": 0.486544132232666,
+      "development": {
+        "coverage": 0.5017215937038859,
+        "wrong_action_rate": 0.07870142646335465,
+        "defer_rate": 0.49827840629611414,
+        "mean_cost": 0.3278406296114117
+      },
+      "test": {
+        "coverage": 0.5121049092131809,
+        "wrong_action_rate": 0.08742434431741762,
+        "defer_rate": 0.4878950907868191,
+        "mean_cost": 0.33137188971082715
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 19,
+      "defer_cost": 0.1,
+      "threshold": 0.757568359375,
+      "development": {
+        "coverage": 0.28578455484505655,
+        "wrong_action_rate": 0.008853910477127398,
+        "defer_rate": 0.7142154451549434,
+        "mean_cost": 0.08027545499262173
+      },
+      "test": {
+        "coverage": 0.2955615332885003,
+        "wrong_action_rate": 0.01378614660390047,
+        "defer_rate": 0.7044384667114997,
+        "mean_cost": 0.08422999327505044
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 19,
+      "defer_cost": 0.2,
+      "threshold": 0.6502607464790344,
+      "development": {
+        "coverage": 0.3782587309394983,
+        "wrong_action_rate": 0.02459419576979833,
+        "defer_rate": 0.6217412690605018,
+        "mean_cost": 0.1489424495818987
+      },
+      "test": {
+        "coverage": 0.38264963012777403,
+        "wrong_action_rate": 0.03295225285810356,
+        "defer_rate": 0.6173503698722259,
+        "mean_cost": 0.15642232683254875
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 19,
+      "defer_cost": 0.5,
+      "threshold": 0.44511812925338745,
+      "development": {
+        "coverage": 0.5641908509591737,
+        "wrong_action_rate": 0.09936055090998525,
+        "defer_rate": 0.43580914904082635,
+        "mean_cost": 0.3172651254303984
+      },
+      "test": {
+        "coverage": 0.5850706119704102,
+        "wrong_action_rate": 0.11533288500336247,
+        "defer_rate": 0.4149293880295898,
+        "mean_cost": 0.32279757901815737
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 23,
+      "defer_cost": 0.1,
+      "threshold": 0.8059515953063965,
+      "development": {
+        "coverage": 0.23905558288243975,
+        "wrong_action_rate": 0.006394490900147565,
+        "defer_rate": 0.7609444171175602,
+        "mean_cost": 0.08248893261190358
+      },
+      "test": {
+        "coverage": 0.25554808338937457,
+        "wrong_action_rate": 0.008742434431741762,
+        "defer_rate": 0.7444519166106254,
+        "mean_cost": 0.08318762609280429
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 23,
+      "defer_cost": 0.2,
+      "threshold": 0.6717541217803955,
+      "development": {
+        "coverage": 0.34579439252336447,
+        "wrong_action_rate": 0.025086079685194294,
+        "defer_rate": 0.6542056074766355,
+        "mean_cost": 0.1559272011805214
+      },
+      "test": {
+        "coverage": 0.3655010087424344,
+        "wrong_action_rate": 0.03127101546738399,
+        "defer_rate": 0.6344989912575656,
+        "mean_cost": 0.1581708137188971
+      }
+    },
+    {
+      "path": "asr",
+      "kind": "gru",
+      "seed": 23,
+      "defer_cost": 0.5,
+      "threshold": 0.4301528334617615,
+      "development": {
+        "coverage": 0.5804230201672406,
+        "wrong_action_rate": 0.10870634530250861,
+        "defer_rate": 0.4195769798327595,
+        "mean_cost": 0.31849483521888833
+      },
+      "test": {
+        "coverage": 0.5817081371889711,
+        "wrong_action_rate": 0.12205783456624075,
+        "defer_rate": 0.4182918628110289,
+        "mean_cost": 0.3312037659717552
+      }
+    }
+  ],
+  "five_seed_means": {
+    "audio": {
+      "0.1": {
+        "ann": {
+          "coverage": 0.07061197041022192,
+          "wrong_action_rate": 0.005850706119704102,
+          "defer_rate": 0.9293880295897781,
+          "mean_cost": 0.09878950907868192
+        },
+        "leaky_ann": {
+          "coverage": 0.1417619367854741,
+          "wrong_action_rate": 0.009145931405514458,
+          "defer_rate": 0.8582380632145259,
+          "mean_cost": 0.09496973772696705
+        },
+        "snn": {
+          "coverage": 0.1300605245460659,
+          "wrong_action_rate": 0.007868190988567586,
+          "defer_rate": 0.8699394754539341,
+          "mean_cost": 0.094862138533961
+        },
+        "gru": {
+          "coverage": 0.19535978480161398,
+          "wrong_action_rate": 0.011432414256893075,
+          "defer_rate": 0.804640215198386,
+          "mean_cost": 0.09189643577673168
+        }
+      },
+      "0.2": {
+        "ann": {
+          "coverage": 0.11028917283120376,
+          "wrong_action_rate": 0.0121049092131809,
+          "defer_rate": 0.8897108271687962,
+          "mean_cost": 0.19004707464694015
+        },
+        "leaky_ann": {
+          "coverage": 0.18345662407531943,
+          "wrong_action_rate": 0.015601882985877608,
+          "defer_rate": 0.8165433759246804,
+          "mean_cost": 0.17891055817081372
+        },
+        "snn": {
+          "coverage": 0.2137188971082717,
+          "wrong_action_rate": 0.021788836583725622,
+          "defer_rate": 0.7862811028917284,
+          "mean_cost": 0.17904505716207128
+        },
+        "gru": {
+          "coverage": 0.286684599865501,
+          "wrong_action_rate": 0.029589778076664425,
+          "defer_rate": 0.7133154001344991,
+          "mean_cost": 0.17225285810356422
+        }
+      },
+      "0.5": {
+        "ann": {
+          "coverage": 0.35736381977135173,
+          "wrong_action_rate": 0.10497646267652994,
+          "defer_rate": 0.6426361802286483,
+          "mean_cost": 0.42629455279085404
+        },
+        "leaky_ann": {
+          "coverage": 0.4515803631472764,
+          "wrong_action_rate": 0.11163416274377942,
+          "defer_rate": 0.5484196368527237,
+          "mean_cost": 0.38584398117014124
+        },
+        "snn": {
+          "coverage": 0.4449226630800269,
+          "wrong_action_rate": 0.10921318090114322,
+          "defer_rate": 0.5550773369199731,
+          "mean_cost": 0.38675184936112983
+        },
+        "gru": {
+          "coverage": 0.5265635507733692,
+          "wrong_action_rate": 0.12098184263618021,
+          "defer_rate": 0.4734364492266308,
+          "mean_cost": 0.35770006724949566
+        }
+      }
+    },
+    "asr": {
+      "0.1": {
+        "ann": {
+          "coverage": 0.25904505716207127,
+          "wrong_action_rate": 0.01634162743779422,
+          "defer_rate": 0.7409549428379287,
+          "mean_cost": 0.09043712172158709
+        },
+        "leaky_ann": {
+          "coverage": 0.2808338937457969,
+          "wrong_action_rate": 0.014458641560188298,
+          "defer_rate": 0.719166106254203,
+          "mean_cost": 0.08637525218560861
+        },
+        "snn": {
+          "coverage": 0.25218560860793543,
+          "wrong_action_rate": 0.009751176866173505,
+          "defer_rate": 0.7478143913920646,
+          "mean_cost": 0.08453261600537995
+        },
+        "gru": {
+          "coverage": 0.270275722932078,
+          "wrong_action_rate": 0.01230665770006725,
+          "defer_rate": 0.729724277067922,
+          "mean_cost": 0.08527908540685944
+        }
+      },
+      "0.2": {
+        "ann": {
+          "coverage": 0.30786819098856755,
+          "wrong_action_rate": 0.025016812373907193,
+          "defer_rate": 0.6921318090114325,
+          "mean_cost": 0.1634431741761937
+        },
+        "leaky_ann": {
+          "coverage": 0.32306657700067254,
+          "wrong_action_rate": 0.022057834566240754,
+          "defer_rate": 0.6769334229993275,
+          "mean_cost": 0.15744451916610624
+        },
+        "snn": {
+          "coverage": 0.32474781439139205,
+          "wrong_action_rate": 0.021587088096839274,
+          "defer_rate": 0.6752521856086079,
+          "mean_cost": 0.15663752521856086
+        },
+        "gru": {
+          "coverage": 0.34862138533960996,
+          "wrong_action_rate": 0.027168796234028247,
+          "defer_rate": 0.65137861466039,
+          "mean_cost": 0.15744451916610624
+        }
+      },
+      "0.5": {
+        "ann": {
+          "coverage": 0.5036987222595831,
+          "wrong_action_rate": 0.09697377269670479,
+          "defer_rate": 0.49630127774041705,
+          "mean_cost": 0.34512441156691326
+        },
+        "leaky_ann": {
+          "coverage": 0.5041694687289845,
+          "wrong_action_rate": 0.08634835238735708,
+          "defer_rate": 0.4958305312710155,
+          "mean_cost": 0.3342636180228648
+        },
+        "snn": {
+          "coverage": 0.5229320780094149,
+          "wrong_action_rate": 0.08876933422999327,
+          "defer_rate": 0.4770679219905851,
+          "mean_cost": 0.3273032952252858
+        },
+        "gru": {
+          "coverage": 0.5515803631472764,
+          "wrong_action_rate": 0.10457296570275723,
+          "defer_rate": 0.4484196368527236,
+          "mean_cost": 0.32878278412911904
+        }
+      }
+    }
+  },
+  "bow_asr_single_fit": {
+    "0.1": {
+      "threshold": 0.8805281381795497,
+      "development": {
+        "coverage": 0.3266109198229218,
+        "wrong_action_rate": 0.013280865715691098,
+        "defer_rate": 0.6733890801770782,
+        "mean_cost": 0.08061977373339892
+      },
+      "test": {
+        "coverage": 0.3312037659717552,
+        "wrong_action_rate": 0.016812373907195696,
+        "defer_rate": 0.6687962340282448,
+        "mean_cost": 0.08369199731002017
+      }
+    },
+    "0.2": {
+      "threshold": 0.8098865648530884,
+      "development": {
+        "coverage": 0.39695031972454503,
+        "wrong_action_rate": 0.022134776192818496,
+        "defer_rate": 0.603049680275455,
+        "mean_cost": 0.14274471224790952
+      },
+      "test": {
+        "coverage": 0.3991257565568258,
+        "wrong_action_rate": 0.03160726294552791,
+        "defer_rate": 0.6008742434431742,
+        "mean_cost": 0.15178211163416275
+      }
+    },
+    "0.5": {
+      "threshold": 0.5704846797107117,
+      "development": {
+        "coverage": 0.5710772257747172,
+        "wrong_action_rate": 0.08116084604033448,
+        "defer_rate": 0.42892277422528285,
+        "mean_cost": 0.2956222331529759
+      },
+      "test": {
+        "coverage": 0.5823806321452589,
+        "wrong_action_rate": 0.09515803631472763,
+        "defer_rate": 0.4176193678547411,
+        "mean_cost": 0.30396772024209817
+      }
+    }
+  }
+}

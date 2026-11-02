@@ -1,0 +1,9 @@
+torch==2.14.1
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.9.1
+soundfile==0.14.0
+faster-whisper==1.2.1
+ctranslate2==4.8.4
+pyarrow==23.0.0
+matplotlib==3.11.2

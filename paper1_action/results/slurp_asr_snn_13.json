@@ -1,0 +1,35 @@
+{
+  "benchmark": "slurp",
+  "input": "asr_hypothesis",
+  "asr": "faster_whisper_tiny.en_int8",
+  "kind": "snn",
+  "seed": 13,
+  "n_parameters_decision_model": 254972,
+  "temperature": 1.61859771961838,
+  "threshold_10pct_dev_error": 0.5792194604873657,
+  "mean_hidden_spike_rate": 0.39881089329719543,
+  "valid_wer": 0.3211605080831409,
+  "test_wer": 0.3215686274509804,
+  "mean_asr_seconds_valid": 0.2828694514569512,
+  "mean_asr_seconds_test": 0.23263054431368366,
+  "valid": {
+    "n": 2033,
+    "accuracy": 0.5568125922282341,
+    "macro_f1": 0.5145229218031888,
+    "nll": 1.8522685766220093,
+    "brier": 0.566088916947685,
+    "ece_15": 0.05584870949497494,
+    "selective_coverage": 0.41416625676340385,
+    "selective_error": 0.0997624703087886
+  },
+  "test": {
+    "n": 2974,
+    "accuracy": 0.5739744451916611,
+    "macro_f1": 0.5259004445242129,
+    "nll": 1.828776478767395,
+    "brier": 0.5579089652171171,
+    "ece_15": 0.06260118542568509,
+    "selective_coverage": 0.4082044384667115,
+    "selective_error": 0.1013179571663921
+  }
+}

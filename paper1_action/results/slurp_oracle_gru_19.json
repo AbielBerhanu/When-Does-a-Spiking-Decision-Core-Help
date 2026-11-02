@@ -1,0 +1,145 @@
+{
+  "benchmark": "slurp",
+  "input": "oracle_transcript",
+  "kind": "gru",
+  "seed": 19,
+  "n_parameters": 261539,
+  "best_epoch": 10,
+  "temperature": 1.1575021062556279,
+  "threshold_10pct_dev_error": 0.5417980551719666,
+  "mean_hidden_spike_rate": null,
+  "valid": {
+    "n": 2033,
+    "accuracy": 0.7919331037875061,
+    "macro_f1": 0.7443314874285824,
+    "nll": 0.8571472764015198,
+    "brier": 0.2966862009654335,
+    "ece_15": 0.02794609450086019,
+    "selective_coverage": 0.7953762911952779,
+    "selective_error": 0.09956709956709957
+  },
+  "test": {
+    "n": 2974,
+    "accuracy": 0.7821116341627438,
+    "macro_f1": 0.7190789524126111,
+    "nll": 0.8583248853683472,
+    "brier": 0.30575121811813966,
+    "ece_15": 0.02685143081715585,
+    "selective_coverage": 0.7777404169468729,
+    "selective_error": 0.10159965412883701
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 3.30814384565143,
+      "valid_nll": 2.4969032692188953,
+      "valid_accuracy": 0.396458435809149,
+      "valid_spike_rate": null,
+      "seconds": 3.342525708998437
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.0236842438270592,
+      "valid_nll": 1.6635738050908515,
+      "valid_accuracy": 0.5922282341367437,
+      "valid_spike_rate": null,
+      "seconds": 2.8890369169967016
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.3680065686408276,
+      "valid_nll": 1.2691044538079514,
+      "valid_accuracy": 0.6866699458927693,
+      "valid_spike_rate": null,
+      "seconds": 3.230945333998534
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.026696399679941,
+      "valid_nll": 1.0813429123248912,
+      "valid_accuracy": 0.7378258730939499,
+      "valid_spike_rate": null,
+      "seconds": 2.73802550000255
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.8178363213299752,
+      "valid_nll": 0.9849018255240856,
+      "valid_accuracy": 0.7540580423020167,
+      "valid_spike_rate": null,
+      "seconds": 3.2528639160009334
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.6661997970885363,
+      "valid_nll": 0.9271410262807847,
+      "valid_accuracy": 0.7771765863256271,
+      "valid_spike_rate": null,
+      "seconds": 2.6161274170008255
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.5540261268408654,
+      "valid_nll": 0.8979641669626637,
+      "valid_accuracy": 0.7742252828332513,
+      "valid_spike_rate": null,
+      "seconds": 2.817647207994014
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.46054333808191417,
+      "valid_nll": 0.8777127495569627,
+      "valid_accuracy": 0.7816035415641909,
+      "valid_spike_rate": null,
+      "seconds": 2.4769848339929013
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.3846538242923938,
+      "valid_nll": 0.8841433073015005,
+      "valid_accuracy": 0.7835710772257747,
+      "valid_spike_rate": null,
+      "seconds": 2.857957250002073
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.3231273872199646,
+      "valid_nll": 0.8719101788784038,
+      "valid_accuracy": 0.7919331037875061,
+      "valid_spike_rate": null,
+      "seconds": 3.1476870000042254
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.27009881255588164,
+      "valid_nll": 0.8711232443640345,
+      "valid_accuracy": 0.793408755533694,
+      "valid_spike_rate": null,
+      "seconds": 3.051003667002078
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.22698623280010022,
+      "valid_nll": 0.8825378780863232,
+      "valid_accuracy": 0.7968519429414658,
+      "valid_spike_rate": null,
+      "seconds": 3.7531159579957603
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.191315692182794,
+      "valid_nll": 0.8825478105376084,
+      "valid_accuracy": 0.7963600590260699,
+      "valid_spike_rate": null,
+      "seconds": 3.5719322499935515
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.1613871101002033,
+      "valid_nll": 0.8938147642209419,
+      "valid_accuracy": 0.7963600590260699,
+      "valid_spike_rate": null,
+      "seconds": 2.713271165994229
+    }
+  ]
+}

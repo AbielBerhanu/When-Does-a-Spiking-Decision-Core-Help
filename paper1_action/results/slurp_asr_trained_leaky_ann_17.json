@@ -1,0 +1,146 @@
+{
+  "benchmark": "slurp",
+  "input": "asr_hypothesis",
+  "training_input": "asr_hypothesis",
+  "kind": "leaky_ann",
+  "seed": 17,
+  "n_parameters": 254972,
+  "best_epoch": 10,
+  "temperature": 1.2208257943140113,
+  "threshold_10pct_dev_error": 0.5916063785552979,
+  "mean_hidden_spike_rate": null,
+  "valid": {
+    "n": 2033,
+    "accuracy": 0.5794392523364486,
+    "macro_f1": 0.509000193353411,
+    "nll": 1.684529423713684,
+    "brier": 0.5379050000960458,
+    "ece_15": 0.05546585301123283,
+    "selective_coverage": 0.4328578455484506,
+    "selective_error": 0.1
+  },
+  "test": {
+    "n": 2974,
+    "accuracy": 0.5793544048419637,
+    "macro_f1": 0.5241518659636261,
+    "nll": 1.6879570484161377,
+    "brier": 0.5374727128782282,
+    "ece_15": 0.04484902841377837,
+    "selective_coverage": 0.44317417619367855,
+    "selective_error": 0.10091047040971168
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 3.305706663141653,
+      "valid_nll": 2.8584795761386808,
+      "valid_accuracy": 0.29808165272995574,
+      "valid_spike_rate": null,
+      "seconds": 1.3592131250043167
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.5370921310045786,
+      "valid_nll": 2.434068322686432,
+      "valid_accuracy": 0.40039350713231675,
+      "valid_spike_rate": null,
+      "seconds": 1.3173399590014014
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.1140906200529863,
+      "valid_nll": 2.1763475476567544,
+      "valid_accuracy": 0.4500737825873094,
+      "valid_spike_rate": null,
+      "seconds": 1.3260787079925649
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.8185789974816293,
+      "valid_nll": 2.0258638966127718,
+      "valid_accuracy": 0.4972946384653222,
+      "valid_spike_rate": null,
+      "seconds": 1.363544958003331
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.5953007285454548,
+      "valid_nll": 1.9011117398172175,
+      "valid_accuracy": 0.5277914412198721,
+      "valid_spike_rate": null,
+      "seconds": 1.315051833007601
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.4183586120646883,
+      "valid_nll": 1.838087826725848,
+      "valid_accuracy": 0.5391047712739794,
+      "valid_spike_rate": null,
+      "seconds": 1.3688578750006855
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.261116875176714,
+      "valid_nll": 1.7844718841745355,
+      "valid_accuracy": 0.5469749139203148,
+      "valid_spike_rate": null,
+      "seconds": 1.3030124159995466
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.1312905425347863,
+      "valid_nll": 1.7588914291607194,
+      "valid_accuracy": 0.5651746187899656,
+      "valid_spike_rate": null,
+      "seconds": 1.413490125007229
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.0106290065105412,
+      "valid_nll": 1.7376422678102779,
+      "valid_accuracy": 0.5740285292670929,
+      "valid_spike_rate": null,
+      "seconds": 1.3015275830111932
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.9088325250349629,
+      "valid_nll": 1.7244837578038221,
+      "valid_accuracy": 0.5794392523364486,
+      "valid_spike_rate": null,
+      "seconds": 1.2888927500025602
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.813656026856941,
+      "valid_nll": 1.7261325414989133,
+      "valid_accuracy": 0.5887850467289719,
+      "valid_spike_rate": null,
+      "seconds": 1.345085167005891
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.7260831724506132,
+      "valid_nll": 1.7615738290872134,
+      "valid_accuracy": 0.5853418593212002,
+      "valid_spike_rate": null,
+      "seconds": 1.3048139159946004
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.6465599588662857,
+      "valid_nll": 1.7555418704372194,
+      "valid_accuracy": 0.5961633054599115,
+      "valid_spike_rate": null,
+      "seconds": 1.267571374992258
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.5762408711501494,
+      "valid_nll": 1.7878959572921924,
+      "valid_accuracy": 0.5956714215445155,
+      "valid_spike_rate": null,
+      "seconds": 1.297408041995368
+    }
+  ]
+}
